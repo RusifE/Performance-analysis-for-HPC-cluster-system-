@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+# Analyzing data using Python.
 
-You can use the [editor on GitHub](https://github.com/RusifE/Python-Project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Using this Python program, developed by me, _Rusif Eyvazli_, you can graph a scatter plot using _hostnum.csv_ file for X-axis and at least one and at most three of the CSV files that include data to analyze a sample cluster system. It reads _**Run Times**_ and _**Node Names**_ columns from the data file(s) and indexed _**Node Names**_ from _hostnum.csv_. The graph is being plotted using the indexed _**Node Names**_ in X-axis as X-ticks with corresponding values from the CSV data files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+To run the program, please use the following command:
 
-### Markdown
+`python Final.py stats-firstFile-.csv`
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+You can add other two optional files and _-title'_ optional argument to the command as following:
 
-```markdown
-Syntax highlighted code block
+`python Final.py stats-firstFile-.csv stats-secondFile-.csv stats-thirdFile-.csv -title "Performance for GITHUB sample"`
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+_Let me know, if there are any recommendations or issues._
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RusifE/Python-Project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+**Licensed under GNU Affero General Public License v3.0**
