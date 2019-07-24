@@ -9,7 +9,7 @@ To run the program, please use the following command:
 
 `python Final.py stats-firstFile-.csv`
 
-You can add other two optional files and _-title'_ optional argument to the command as following:
+You can add other two optional files and _-title_ optional argument to the command as following:
 
 `python Final.py stats-firstFile-.csv stats-secondFile-.csv stats-thirdFile-.csv -title "Performance for GITHUB sample"`
 
