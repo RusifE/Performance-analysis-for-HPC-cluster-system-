@@ -1,3 +1,30 @@
+"""
+    Developer:           Rusif Eyvazli
+    Date:                07/15/2019
+    Project link:        https://rusife.github.io/Performance-analysis-for-HPC-cluster-system-/
+    Learn more about me: https://www.linkedin.com/in/rusifeyvazli/
+    Contact:             eyvazlirusif@gmail.com
+    
+    Program name:        Performance analysis for HPC cluster system.
+    Purpose:             Using this program, you can graph a scatter plot using hostnum.csv file for X-axis 
+                         and at least one and at most three of the CSV files that include data to analyze 
+                         a sample cluster system. 
+    Copyright (C) <2019>  <Rusif Eyvazli>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as
+    published by the Free Software Foundation, either version 3 of the
+    License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+"""
+
 from matplotlib import pyplot as plt
 import numpy as np
 from textwrap import wrap
