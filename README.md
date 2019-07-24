@@ -18,4 +18,5 @@ _Let me know, if there are any recommendations or issues._
 
 ## License
 **The contents of this repository are licensed under the GNU Affero General Public License v3.0**
+
 Copyright (C) <2019>  <Rusif Eyvazli>
